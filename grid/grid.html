@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <style>
+        .row > div {
+            background: #f2f2f2;
+            margin: 10px 0;
+            padding: 40px;
+        }
+    </style>
 </head>
 <body>
 
@@ -15,9 +23,34 @@
 
         <!-- Las filas (row) son grupos HORIZONTALES de columnas. -->
 
+        <!-- Los tamaños de Columna en Bootstrap 5 son:
+             .col       Extra Pequeño (Extra Small) - Smartphones Vertical      Menos de 576px
+             .col-sm    Pequeño (Small) - Smartphones Vertical                  Más de 576px y Menos de 768px
+             .col-md    Mediano (Medium) - Tablets                              Más de 768px y Menos de 992px
+             .col-lg    Largo (Large) - Computadoras                            Más de 992px y Menos de 1200px
+             .col-xl    Extra Largo (Extra Large) - Computadoras                Más de 1200px
+             .col-xxl   Extra Extra Largo (Extra Extra Large) - Televisiones    Más de 1400px
+        -->
+
         <div class="row">
-            <div class="col">
-                <h1>Header</h1>
+            <div class="col-12 col-sm-6">
+                <h1>Columna 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio nihil 
+                deleniti aperiam magni laudantium delectus, dolor dolorum odit assumenda fuga 
+                commodi, harum rem nobis similique quasi vel suscipit a!</p>
+                <button class="btn btn-primary">Conozca más!</button>
+            </div>
+
+            <div class="col-12 col-sm-6">
+                <h1>Columna 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio nihil 
+                deleniti aperiam magni laudantium delectus, dolor dolorum odit assumenda fuga 
+                commodi, harum rem nobis similique quasi vel suscipit a!</p>
+                <button class="btn btn-primary">Conozca más!</button>
+            </div>
+
+            <div class="col-12">
+                <h1>Columna 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio nihil 
                 deleniti aperiam magni laudantium delectus, dolor dolorum odit assumenda fuga 
                 commodi, harum rem nobis similique quasi vel suscipit a!</p>
