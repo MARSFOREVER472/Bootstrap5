@@ -1,3 +1,3 @@
-# **_Bootstrap5_**
+# **_Bootstrap 5_**
 
-**_Acerca de cómo descargar Bootstrap 5 y primeros pasos._**
+### **_Curso introductorio acerca de cómo descargar la versión de Bootstrap 5 y primeros pasos._**
